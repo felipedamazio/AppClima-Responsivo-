@@ -12,7 +12,7 @@
 
 <h1 align="center">
 <!-- <h1> -->
-<a href="https://felipedamazio.github.io/AppClima-Responsivo-" target="_blank">Testar</a> 
+<a href="https://https://felipedamazio.github.io/AppClima-Responsivo-/" target="_blank">Testar</a> 
 </h1>
 
 ### 🛠 Tecnologias
