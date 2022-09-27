@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --calendar-bg-color: #4a8daf;
+    --calendar-font-color: #FFF;
+    --weekdays-border-bottom-color: #404040;
+    --calendar-date-hover-color: #505050;
+    --calendar-current-date-color: #1b1f21;
+    --calendar-today-color: linear-gradient(to bottom, #ff1100, #f32121);
+    --calendar-today-innerborder-color: transparent;
+    --calendar-nextprev-bg-color: transparent;
+    --next-prev-arrow-color: #FFF;
+    --calendar-border-radius: 16px;
+    --calendar-prevnext-date-color: #484848
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background: linear-gradient(135deg, rgb(216, 191, 143), rgb(113, 136, 145));
+    background-attachment: fixed;
+
+
+}
+
+
+
+section.main {
+
+    width: 100%;
+    min-height: 70%;
+    background-size: cover;
+
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+
+
+
+
+
+}
+
+footer a {
+    color: #404040;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .ClimaTempo {
+        margin-top: 120px;
+    }
+
+    .content {
+        margin-top: 5em;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    .ClimaTempo {
+        margin-top: 50px;
+    }
+
+    footer {
+        margin-top: 70px;
+    }
+}
+
